@@ -1,17 +1,13 @@
-import React from 'react'
+import React from "react";
 
-const button = ({ icon }) => {
+const Button = ({ icon }) => {
   return (
-    <div className='button-container'>
-      <div className='search-container'>
-
+    <div className="button-container">
+      <div className="search-container">
         <button>{icon}</button>
-
-
       </div>
+    </div>
+  );
+};
 
-    </div >
-  )
-}
-
-export default button
+export default Button;

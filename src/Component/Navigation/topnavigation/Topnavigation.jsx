@@ -31,4 +31,4 @@ const Topnavigation = () => {
   );
 };
 
-export default Topnavigation;
+export {Topnavigation} ;
