@@ -1,4 +1,6 @@
 import React from "react";
+import BottomNavigation from "../bottomnavigation/BottomNavigation";
+import { NavData } from "../../../Statics Data/StaticsData";
 // import search from "../../Shared/inputfield/search";
 // import { FiSearch } from "react-icons/fi";
 // import button from '../../shared/buttonfield/button';
@@ -20,12 +22,9 @@ const Topnavigation = () => {
             {/* </div> */}
           </div>
         </div>
-        <div classname="home-contaner">Home</div>
-        <div classname="bussiness-container">Bussiness</div>
-        <div classname="politics-container">politics</div>
-        <div classname="service-container">Service</div>
-
-        <div classname="contact-container">contact</div>
+          <div className="bottom-nav-containers-layout">
+            <BottomNavigation NavData={NavData}/>
+          </div>
       </div>
     </div>
   );
