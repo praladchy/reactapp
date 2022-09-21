@@ -1,7 +1,7 @@
 import React from 'react'
-import './Search.css'
 
-const Search = () => {
+
+const SearchInput = () => {
   return (
     <div>
       <div className='top-search-container'>
@@ -14,4 +14,4 @@ const Search = () => {
   )
 }
 
-export default Search
+export {SearchInput}

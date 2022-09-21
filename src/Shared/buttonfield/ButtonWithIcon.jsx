@@ -1,6 +1,6 @@
 import React from 'react'
-import './Button.css'
-const Button = ({icon}) => {
+
+const ButtonWithIcon = ({icon}) => {
   return (
     <div className='button-container'>
       <div className='search-container'>
@@ -17,4 +17,4 @@ const Button = ({icon}) => {
   )
 }
 
-export default Button
+export {ButtonWithIcon}

@@ -1,6 +1,6 @@
 const Navdata = [
     {
-        url: "/Home",
+        url: "/",
         lable: "Home",
     },
     {

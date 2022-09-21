@@ -1,8 +1,8 @@
 import React from "react";
-import Button from "../../../Shared/buttonfield/Button";
-import Search from "../../../Shared/inputfield/Search";
-// import './Topnavigation.css'
+import { ButtonWithIcon } from "../../../Shared/buttonfield/ButtonWithIcon";
+import './Topnavigation.css'
 import { GrSearch } from 'react-icons/gr';
+import { SearchInput } from "../../../Shared/inputfield/SearchInput";
 
 
 
@@ -18,10 +18,10 @@ const Topnavigation = () => {
          
           <div className="search-side-container">
             <div className='search-container'>
-              <Search />
+              <SearchInput />
             </div>
             <div className='button-container'>
-              <Button icon={<GrSearch color="blue"/>}/>
+              <ButtonWithIcon icon={<GrSearch color="blue"/>}/>
   
             </div>
           </div>
