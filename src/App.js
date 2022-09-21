@@ -1,10 +1,15 @@
 import React from 'react';
+import Routing from './Routing/Routing';
+import { BrowserRouter } from 'react-router-dom';
 import './App.css';
-import Topnavigation from './Component/Navigation/topnavigation/Topnavigation';
-function App() {
+import Navigation from './Component/Navigation/Navigation';
+const App=()=> {
   return (
     <div>
-      <Topnavigation/>
+      <BrowserRouter>
+        <Navigation />
+        <Routing />
+      </BrowserRouter>
     </div>
   );
 }
