@@ -1,11 +1,14 @@
 import React from 'react'
 
-const button = ({ icon }) => {
+const ButtonWithIcon = ({icon}) => {
   return (
     <div className='button-container'>
       <div className='search-container'>
 
-        <button>{icon}</button>
+
+       <button>{icon}</button>
+       
+      
 
 
       </div>
@@ -14,4 +17,4 @@ const button = ({ icon }) => {
   )
 }
 
-export default button
+export {ButtonWithIcon}
