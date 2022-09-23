@@ -1,8 +1,11 @@
 .bottom-container {
-    text-align:center;
-    display: grid;
+    justify-content:center;
+    display: flex;
     grid-row: auto;
-
-    gap: 2em;
+    text-decoration: none;
+    gap: 5em;
    
 }
+/* .main-bottom-container{ */
+    /* text-decoration: none; */
+/* } */

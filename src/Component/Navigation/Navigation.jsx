@@ -2,7 +2,7 @@ import React from "react";
 
 import Topnavigation from "../../Component/Navigation/topnavigation/Topnavigation";
 import Bottomnavigation from "../../Component/Navigation/bottomNavigation/Bottomnavigation";
-import { Navdata } from "../Dummydata/Dummydata";
+import { Navdata } from "../Dummydata/Navdata";
 const Navigations = () => {
    
    

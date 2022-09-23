@@ -1,6 +1,6 @@
 const Navdata = [
     {
-        url: "/",
+        url: "/Home",
         lable: "Home",
     },
     {
@@ -15,6 +15,10 @@ const Navdata = [
         url: "/Bussiness",
         lable: "Bussiness",
     },
+    {
+        url: "/Bussiness",
+        lable: "Bussiness",
+    },
+]
 
-];
 export { Navdata };

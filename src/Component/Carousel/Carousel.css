@@ -1,0 +1,19 @@
+.Carousel-container{
+    /* display: flex; */
+    padding-top: 5px;
+}
+.lable-container{
+    text-align: center;
+}
+.image-container{
+    width: 36em;
+    height:27em;
+   
+}
+.description-container{
+    width: 15em;
+}
+.image-description-container{
+    display: flex;
+    height: 30em;
+}
