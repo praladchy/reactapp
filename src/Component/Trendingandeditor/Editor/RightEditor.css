@@ -1,0 +1,17 @@
+.right-container{
+    display: flex;
+    /* width: 10em; */
+    padding: none;
+    margin: none;
+    gap: none;
+}
+.imag-container{
+    width: 10em;
+    height: 7em;
+    padding: none;
+
+}
+.righteditor-description-container{
+    width: 10em;
+         
+}
