@@ -14,6 +14,7 @@ const Carousel = () => {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
+    centermode:false,
   };
   return (
     <div>
@@ -34,7 +35,7 @@ const Carousel = () => {
 
               </figure>
               {/* </div> */}
-              <div className="description-container">
+              <div className="carousel-description-container">
                 <p>{each?.Description}</p>
               </div>
             </div>

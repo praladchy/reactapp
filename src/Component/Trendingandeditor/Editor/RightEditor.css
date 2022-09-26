@@ -4,14 +4,22 @@
     padding: none;
     margin: none;
     gap: none;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 .imag-container{
     width: 10em;
     height: 7em;
     padding: none;
+flex-shrink: 2;
 
 }
 .righteditor-description-container{
-    width: 10em;
+    width:10em ;
+    flex-shrink: 3;
          
+}
+.right-side-main-container{
+   
+   
 }

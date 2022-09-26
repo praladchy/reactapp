@@ -3,11 +3,33 @@
     /* padding: none;
     gap: none;
     margin: none; */
+    justify-content: center;
+    flex-shrink: 2;
+    /* box-sizing: border-box; */
+    /* display: flex; */
+    /* width: 60%; */
+flex-wrap: wrap;
+/* gap:3em; */
+/* justify-content: space-between; */
     
 }
 .Trendingandeditor-main-container{
     display: flex;
+   
+    flex-wrap: wrap;
+   
 }
 /* .Top-heading-container{
     display: flex;
 } */
+.Editor-heading-container{
+    padding: 1em;
+    justify-content: flex-start;
+}
+/* .Editor-container{
+    
+    flex-shrink: 2; */
+/* } */
+.Trending-container{
+    width: 30%;
+}

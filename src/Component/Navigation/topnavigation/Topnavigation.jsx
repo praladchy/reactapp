@@ -12,9 +12,9 @@ const Topnavigation = () => {
     <div>
       <div className="container">
         <div className="top-container">
-          <div className="top-logo-container">
+          {/* <div className="top-logo-container"> */}
             <h2 className="logo-container">wel-learn</h2>
-          </div>
+          {/* </div> */}
          
           <div className="search-side-container">
             <div className='search-container'>

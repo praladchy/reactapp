@@ -1,9 +1,12 @@
 .bottom-container {
     justify-content:center;
     display: flex;
-    grid-row: auto;
+    /* grid-row: auto; */
     text-decoration: none;
-    gap: 5em;
+    flex-shrink: 2;
+    align-items: stretch;
+    gap: 20%;
+    /* justify-content: space-between; */
    
 }
 /* .main-bottom-container{ */

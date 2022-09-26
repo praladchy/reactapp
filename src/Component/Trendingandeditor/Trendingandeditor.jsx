@@ -15,6 +15,7 @@ const Trendingandeditor = () => {
                 </div>
                 <div className='Editor-bottom-container'>
                     <LeftEditor />
+                    
                     <Righteditor />
                     {/* <div className='left-side-main-container'>
 

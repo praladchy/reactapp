@@ -1,13 +1,18 @@
 .img-container{
-    width: 15em;
-    height: 10em;
-
+    width: 10em;
+    height: auto;
+flex-shrink: 1;
+justify-content: flex-end;
 }
 /* .right-side-container{ */
     /* padding: 1em; */
 /* } */
-.description-container{
-    padding-left: 2em;
+.left-side-description-container{
+   padding-left: 1em;
     
-    width: 15em;
+    width:auto;
+}
+.left-side-container{
+    width: 12em;
+    flex-shrink: 2;
 }
