@@ -10,7 +10,7 @@ const Editor = () => {
       <div className='left-side-main-container'>
 
         {LeftEditordata.map((each,index) => (
-        <div className='left-side-container' >
+        <div className='left-side-container' key={index} >
           <figure>
           {/* <img src={each?.image}
             alt="imgunload"
