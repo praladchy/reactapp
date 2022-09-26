@@ -1,37 +1,7 @@
-.Carousel-container{
-    display: flex;
-    padding-top: 5px;
-    flex-wrap: wrap;
-    /* align-items: stretch; */
-    /* justify-content: center; */
-
-}
-.lable-container{
-    text-align: center;
-}
-.image-container{
-    width: auto;
-    height:300px;
-    align-items: stretch;
-    flex-shrink :1;
-
-   
-    
-   
-}
-
 .image-description-container{
     display: flex;
-    height: auto;
-    justify-content: center;
-    /* flex-basis: auto; */
-    flex-wrap: wrap;
-   /* flex-shrink: 2; */
-    /* padding: 1em; */
-  
-    
 }
-.carousel-description-container{
-    width: 15em;
-    flex-shrink: 3;
+.image-container{
+    width: 35em;
+    height: 20em;
 }

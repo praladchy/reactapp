@@ -3,12 +3,17 @@ import Carousel from '../../Component/Carousel/Carousel'
 import PoliticsandBussiness from '../../Component/PoliticsandBussiness/PoliticsandBussiness'
 import Trendingandeditor from '../../Component/Trendingandeditor/Trendingandeditor'
 // import { Carouseldata } from '../../Component/Dummydata/Carouseldata'
-
+import './Home.css'
 const Home = () => {
   return (
     <div>
+      <div className='carousel-home-container'>
       <Carousel /> 
-      <Trendingandeditor />
+      </div>
+     <div className='trending-home-container'>
+     <Trendingandeditor />
+     </div>
+
       <PoliticsandBussiness />
     </div>
   )
