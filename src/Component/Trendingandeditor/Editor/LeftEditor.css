@@ -1,18 +1,18 @@
-.img-container{
-    width: 10em;
-    height: auto;
-flex-shrink: 1;
-justify-content: flex-end;
+.img-container {
+  width: 10em;
+  height: auto;
+  flex-shrink: 1;
+  justify-content: flex-end;
 }
 /* .right-side-container{ */
-    /* padding: 1em; */
+/* padding: 1em; */
 /* } */
-.left-side-description-container{
-   padding-left: 1em;
-    
-    width:auto;
+.left-side-description-container {
+  padding-left: 1em;
+
+  width: auto;
 }
-.left-side-container{
-    width: 12em;
-    flex-shrink: 2;
+.left-side-container {
+  width: 12em;
+  flex-shrink: 2;
 }
