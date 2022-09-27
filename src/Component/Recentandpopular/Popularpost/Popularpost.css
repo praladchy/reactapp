@@ -1,0 +1,12 @@
+.popularpost-image-title-container{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+
+}
+.popularpost-image-container{
+    width: 15em;
+height: 10em;
+flex-shrink: 2;
+}

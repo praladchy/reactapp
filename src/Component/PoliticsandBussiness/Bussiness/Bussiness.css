@@ -1,0 +1,26 @@
+.Bussiness-image-description-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-shrink: 1;
+    /* justify-content: flex-end; */
+    /* width: 50%; */
+    justify-content: center;
+    /* padding: 1em; */
+}
+
+.Bussiness-image-container {
+    width: 10em;
+    height: 8em;
+    flex-shrink: 2;
+
+}
+
+.Bussiness-description-container {
+    width: 10em;
+    flex-shrink: 2;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.Bussiness-heading-container{
+    padding-left: 35px;
+}

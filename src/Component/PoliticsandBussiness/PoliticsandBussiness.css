@@ -1,0 +1,12 @@
+.politicsandBussiness-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.politics-container{
+justify-content: center;
+}
+.bussiness-container{
+    justify-content: center;
+    }
