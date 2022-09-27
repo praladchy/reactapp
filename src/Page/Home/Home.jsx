@@ -7,11 +7,19 @@ import Trendingandeditor from '../../Component/Trendingandeditor/Trendingandedit
 // import { Carouseldata } from '../../Component/Dummydata/Carouseldata'
 import Footerdata from '../../Component/Dummydata/Footerdata'
 // import Footernav from '../../Component/Navigation/Footernavigation/Footernav'
+
+import './Home.css'
+
 const Home = () => {
   return (
     <div>
+      <div className='carousel-home-container'>
       <Carousel /> 
-      <Trendingandeditor />
+      </div>
+     <div className='trending-home-container'>
+     <Trendingandeditor />
+     </div>
+
       <PoliticsandBussiness />
       <RecentandPopular />
     <Footernav Footerdata={Footerdata}/>
