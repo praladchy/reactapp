@@ -1,7 +1,10 @@
 .carousel-home-container{
    width: 80%;
+   flex-shrink: 1;
    margin: 0 auto;
    margin-top: 4em;
+   /* flex-wrap: wrap; */
+   justify-content: center;
 }
 .trending-home-container{
     margin-top: 5em;

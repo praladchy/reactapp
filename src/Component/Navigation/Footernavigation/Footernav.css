@@ -1,0 +1,16 @@
+.footer-main-container{
+    display: flex;
+    justify-content: center;
+    /* width: 80%; */
+   margin: 5em;
+   /* flex-wrap: wrap; */
+}
+.footer-right-search-container{
+    display: flex;
+ 
+}
+.footer-left-description-container
+{
+    /* flex-wrap: wrap; */
+    width: 10em;
+}
