@@ -7,6 +7,7 @@ import { Route, Routes } from "react-router-dom";
 // import Bussiness from "../Page/Bussiness/Bussiness";
 import Navigations from "../Component/Navigation/Navigation";
 import { Navpath } from "../Component/Dummydata/Navpath"
+import Footernav from "../Component/Navigation/Footernavigation/Footernav";
 const Routing = () => {
   return (
     <>
@@ -20,6 +21,7 @@ const Routing = () => {
           </Routes>
         </div>
       ))}
+      <Footernav/>
     </>
   );
 };
