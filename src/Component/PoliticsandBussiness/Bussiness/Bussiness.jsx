@@ -2,7 +2,7 @@ import React from 'react'
 // import Politicsdata from '../../Dummydata/Politicsdata'
 import Bussinessdata from '../../Dummydata/Bussinessdata'
 import './Bussiness.css'
-const BBussiness = () => {
+const Bussiness = () => {
     return (
         <div>
             <div className='Bussiness-main-container'>
@@ -41,4 +41,4 @@ const BBussiness = () => {
     )
 }
 
-export default BBussiness
+export default Bussiness
