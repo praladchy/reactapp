@@ -5,7 +5,7 @@ import PoliticsandBussiness from '../../Component/PoliticsandBussiness/Politicsa
 import RecentandPopular from '../../Component/Recentandpopular/RecentandPopular'
 import Trendingandeditor from '../../Component/Trendingandeditor/Trendingandeditor'
 // import { Carouseldata } from '../../Component/Dummydata/Carouseldata'
-import Footerdata from '../../Component/Dummydata/Footerdata'
+import { Footerdata} from '../../Component/Dummydata/Footerdata'
 // import Footernav from '../../Component/Navigation/Footernavigation/Footernav'
 
 import './Home.css'

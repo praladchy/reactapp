@@ -1,7 +1,15 @@
 .image-description-container{
     display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
 }
 .image-container{
     width: 35em;
     height: 20em;
+    flex-shrink: 3;
+    
+}
+.carousel-description-container{
+    flex-wrap: wrap;
+    /* justify-content: center; */
 }

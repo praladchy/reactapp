@@ -2,17 +2,16 @@ import React from 'react'
 import { ButtonWithIcon } from '../../../Shared/buttonfield/ButtonWithIcon'
 import { SearchInput } from '../../../Shared/inputfield/SearchInput'
 import {  BsFillCursorFill} from 'react-icons/bs';
-
+import './Footernav.css'
     
 
 
-const Footernav = ({Footerdata=[]}) => {
+const Footernav = ({Footerdata}) => {
     return (
         <div>
-            <div className='footer-main -container'>
+            <div className='footer-main-container'>
                 {Footerdata.map((each, index) => (
-
-                    <div className='footer-left-container' key={index}>
+                <div className='footer-left-container' key={index}>
                         <div className='footer-left-title-container'>
                             <h2>
                                 {each?.title}

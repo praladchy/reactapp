@@ -5,4 +5,4 @@ const Footerdata=[
     description:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis aspernatur ut at quae omnis pariatur obcaecati possimus nisi ea iste!",
 },
 ];
-export default {Footerdata};
+export {Footerdata };

@@ -15,12 +15,12 @@ const Trendingandeditor = () => {
             <h3>Editor's</h3>
           </div>
           <div className="Editor-bottom-container">
-            <div className="editor-left">
+            {/* <div className="editor-left"> */}
               <LeftEditor />
-            </div>
-            <div className="editor-right">
+            {/* </div> */}
+            {/* <div className="editor-right"> */}
               <Righteditor />
-            </div>
+            {/* </div> */}
           </div>
         </div>
         <div className="Trending-container">
