@@ -3,29 +3,22 @@ import React from 'react'
 import './RecentNews.css'
 
 
-const RecentNews = ({Datafrompopular}) => {
- console.log('Data',Datafrompopular)
+const RecentNews = ({ Datafrompopular }) => {
+  console.log('Data', Datafrompopular)
   return (
     <div>
-      {Datafrompopular?.map((each,index)=>(
-         <div key={index}>
-          <h1>
+      {Datafrompopular.map((each, index) => (
+        <div key={index}>
+          <h2>
             {each?.title}
-          </h1>
+          </h2>
+          <div className='RecentNews-description-container'>
+            <p>{each?.description}</p>
 
-         </div>
+          </div>
+        </div>
       ))}
-     
-
-const RecentNews = ({Datafrompopular=[]}) => {
-  console.log("Datafrompopular");
-  return (
-    <div>
-      
-    
-
     </div>
   )
 }
-
-export default RecentNews
+export default RecentNews;

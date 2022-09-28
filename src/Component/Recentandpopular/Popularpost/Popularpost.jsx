@@ -10,7 +10,7 @@ const Popularpost = ({Popularpostdata=[]}) => {
                 </div>
                 {Popularpostdata.map((each, index) => (
 
-                    <div className='popularpost-image-title-component' key={index}>
+                    <div className='popularpost-image-title-container' key={index}>
                         <figure>
                             <img
                                 src={each?.image}
@@ -19,7 +19,7 @@ const Popularpost = ({Popularpostdata=[]}) => {
                             />
                         </figure>
                         <div className='popularpost-title-container'>
-                            <h2>{each?.title}</h2>
+                            <h3>{each?.title}</h3>
                         </div>
 
                     </div>

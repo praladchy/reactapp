@@ -1,0 +1,12 @@
+.recentandpopular-container{
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* justify-content: center; */
+    /* margin: 2em; */
+    gap: 2em;
+}
+.recent-popular-news-container{
+    display: flex;
+    /* width: 70%; */
+    flex-wrap: wrap;
+}

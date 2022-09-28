@@ -1,12 +1,19 @@
-.popularpost-image-title-container{
-    display:flex;
+.popularpost-image-title-container {
+    display: flex;
     justify-content: center;
-    flex-wrap: wrap;
-    justify-content: flex-end;
+    /* flex-wrap: wrap; */
+    /* justify-content: flex-end; */
 
 }
-.popularpost-image-container{
-    width: 15em;
-height: 10em;
-flex-shrink: 2;
+
+.popularpost-image-container {
+    width:10em;
+    height: 7em;
+    flex-shrink: 2;
+   
+}
+.popularpost-title-container{
+    width: 10em;
+     flex-shrink: 2;
+     flex-wrap:wrap ;
 }

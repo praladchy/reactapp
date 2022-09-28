@@ -8,6 +8,7 @@ import { Route, Routes } from "react-router-dom";
 import Navigations from "../Component/Navigation/Navigation";
 import { Navpath } from "../Component/Dummydata/Navpath"
 import Footernav from "../Component/Navigation/Footernavigation/Footernav";
+import {Footerdata} from "../Component/Dummydata/Footerdata"
 const Routing = () => {
   return (
     <>
@@ -21,7 +22,7 @@ const Routing = () => {
           </Routes>
         </div>
       ))}
-      <Footernav/>
+      <Footernav Footerdata={Footerdata}/>
     </>
   );
 };
