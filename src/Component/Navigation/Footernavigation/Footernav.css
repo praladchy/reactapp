@@ -1,16 +1,28 @@
-.footer-main-container{
+.footer-main-container {
     display: flex;
+    background-color: azure;
     justify-content: center;
-    /* width: 80%; */
-   margin: 5em;
-   /* flex-wrap: wrap; */
-}
-.footer-right-search-container{
-    display: flex;
- 
-}
-.footer-left-description-container
-{
+    align-items: center;
     /* flex-wrap: wrap; */
-    width: 10em;
+    padding: 4em;
+    margin-top: 5em;
+
+    /* width: 100%; */
+    height: 10em;
+}
+
+.footer-right-search-container {
+    display: flex;
+
+
+}
+
+.footer-right-description-container {
+    flex-wrap: wrap;
+ 
+   
+}
+
+.footer-botton-box-container {
+    width:none;
 }
