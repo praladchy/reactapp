@@ -1,12 +1,12 @@
 import React from 'react'
 import './Popularpost.css'
 
-const Popularpost = ({Popularpostdata=[]}) => {
+const Popularpost = ({ Popularpostdata = [] }) => {
     return (
         <>
             <div className='popularpost-main-componenet'>
                 <div className='popularpost-heading-componenet'>
-
+                    <h2>Popularpost</h2>
                 </div>
                 {Popularpostdata.map((each, index) => (
 

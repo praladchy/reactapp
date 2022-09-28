@@ -1,0 +1,9 @@
+.Editorspick-container{
+    width: none;
+    display: flex;
+    justify-content: center;
+    /* background-color:aqua; */
+    gap: 2em;
+    flex-wrap: wrap;
+    padding: 3em;
+}
