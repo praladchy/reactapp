@@ -1,5 +1,6 @@
 import React from "react";
 import Carousel from "../../Component/Carousel/Carousel";
+import { Righteditordata } from "../../Component/Dummydata/Righteditordata";
 import Editorspick from "../../Component/Editorspick/Editorspick";
 // import Footernav from "../../Component/Navigation/Footernavigation/Footernav";
 import PoliticsandBussiness from "../../Component/PoliticsandBussiness/PoliticsandBussiness";
@@ -24,7 +25,7 @@ const Home = () => {
       <div className="trending-home-container">
         <Trendingandeditor />
       </div>
-<Editorspick/>
+      <Editorspick Editorspickdata={Righteditordata.slice(0,1)}/>
       <PoliticsandBussiness />
       <RecentandPopular />
     </div>
