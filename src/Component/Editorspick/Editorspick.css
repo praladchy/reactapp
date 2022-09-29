@@ -2,8 +2,13 @@
     width: none;
     display: flex;
     justify-content: center;
-    /* background-color:aqua; */
+    /* background-color:blanchedalmond; */
     gap: 2em;
     flex-wrap: wrap;
     padding: 3em;
+    margin-top: 3em;
+    background-color: azure;
+}
+.Editorspick-description-container{
+    width: 18em;
 }

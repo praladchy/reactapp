@@ -1,7 +1,7 @@
 import React from 'react'
-import Politicsdata from '../../Dummydata/Politicsdata'
+// import Politicsdata from '../../Dummydata/Politicsdata'
 import './Politics.css'
-const Politics = () => {
+const Politics = ({FromPoliticsdata}) => {
     return (
         <div>
             <div className='Politics-main-container'>
@@ -9,7 +9,7 @@ const Politics = () => {
 
                     <h2>Politics</h2>
                 </div>
-                {Politicsdata.map((each, index) => (
+                {FromPoliticsdata.map((each, index) => (
                     <div className='politics-image-description-container' key={index}>
                         <figure>
                             <img

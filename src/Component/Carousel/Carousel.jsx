@@ -21,6 +21,7 @@ const Carousel = () => {
         {Carouseldata.map((each, index) => (
           <div className="Carousel-container" key={index}>
             <div className="image-description-container">
+              <div>
               <figure>
                 <img
                   src={each?.image}
@@ -28,6 +29,7 @@ const Carousel = () => {
                   className="image-container"
                 />
               </figure>
+              </div>
               {/* </div> */}
               <div className="carousel-description-container">
                 <p>{each?.Description}</p>

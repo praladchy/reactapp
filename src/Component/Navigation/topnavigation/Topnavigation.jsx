@@ -11,18 +11,20 @@ const Topnavigation = () => {
   return (
     <div>
       <div className="container">
-        <div className="top-container">
-          {/* <div className="top-logo-container"> */}
-            <h2 className="logo-container">wel-learn</h2>
-          {/* </div> */}
-         
-          <div className="search-side-container">
-            <div className='search-container'>
-              <SearchInput />
-            </div>
-            <div className='button-container'>
-              <ButtonWithIcon icon={<GrSearch color="blue"/>}/>
-  
+        <div className="inner-top-container">
+          <div className="top-container">
+            {/* <div className="top-logo-container"> */}
+            <div className="logo-container"><h2>wel-learn</h2></div>
+            {/* </div> */}
+
+            <div className="search-side-container">
+              <div className='search-container'>
+                <SearchInput />
+              </div>
+              <div className='button-container'>
+                <ButtonWithIcon icon={<GrSearch color="blue" />} />
+
+              </div>
             </div>
           </div>
         </div>

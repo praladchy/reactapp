@@ -3,7 +3,7 @@ import React from 'react'
 import './RecentNews.css'
 
 
-const RecentNews = ({ Datafrompopular }) => {
+const RecentNews = ({Datafrompopular=[]}) => {
   // console.log('Data', Datafrompopular)
   return (
     <div>
