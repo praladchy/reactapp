@@ -1,0 +1,9 @@
+.contactForm-container{
+    
+ width:40em;
+ height: 3em;   
+ /* flex: auto; */
+ border-radius: 6em;
+ flex-shrink: 4;
+
+}

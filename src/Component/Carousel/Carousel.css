@@ -5,15 +5,16 @@
    padding: 2em;
 }
 .image-container{
-    width: 26em;
-    height: 20em;
+    width: 30em;
+    height: 25em;
+    justify-content: flex-start;
     /* flex-shrink: 1; */
     /* justify-content: center; */
     
 }
 .carousel-description-container{
     flex-wrap: wrap;
-    width: 27em;
+    width: 37em;
     /* justify-content: center; */
 }
 .Carousel-container{

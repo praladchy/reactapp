@@ -27,6 +27,7 @@ const Home = () => {
       </div>
       <Editorspick Editorspickdata={Righteditordata.slice(0,1)}/>
       <PoliticsandBussiness />
+    
       <RecentandPopular />
     </div>
   );

@@ -9,12 +9,12 @@
 
 }
 .politics-image-container{
-    width: 10em;
-    /* height: 8em; */
+    width: 15em;
+    height: 12em;
     flex-shrink: 2;
 }
 .politics-description-container{
-    width:10em;
+    width:15em;
     flex-shrink: 2;
     flex-wrap: wrap;
     /* padding: 1em; */
@@ -24,8 +24,8 @@
     padding-left: 35px;
     flex-shrink: 1;
 }
-.Politics-main-container{
+/* .Politics-main-container{ */
     /* flex-wrap: wrap; */
     
     /* justify-content: center; */
-}
+/* } */

@@ -9,14 +9,14 @@
 }
 
 .Bussiness-image-container {
-    width: 10em;
-    height: 8em;
+    width: 15em;
+    height: 12em;
     flex-shrink: 2;
 
 }
 
 .Bussiness-description-container {
-    width: 10em;
+    width: 15em;
     flex-shrink: 2;
     flex-wrap: wrap;
     justify-content: center;

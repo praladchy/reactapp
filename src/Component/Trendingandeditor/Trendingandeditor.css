@@ -11,6 +11,8 @@
     gap: 2em;
     flex-wrap: wrap;
     
+
+    
 }
 /* .Top-heading-container{
     display: flex;
@@ -18,13 +20,15 @@
 .Editor-heading-container{
     padding: 1em;
     justify-content: flex-start;
+
 }
 .Editor-container{
     
    background-color: beige;
+   width: 50%;
  }
 .Trending-container{
-    width: 30%;
+    width: 40%;
     flex-wrap: wrap;
     background-color:aliceblue;
     padding: 1em;

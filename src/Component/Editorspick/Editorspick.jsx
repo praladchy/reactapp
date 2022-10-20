@@ -10,7 +10,7 @@ const Editorspick = ({ Editorspickdata = [] }) => {
         Editorspickdata.map((each, index) => (
           <div className='Editorspick-container' key={index}>
             <div className='Editorspick-image-container'>
-              <img src={each?.url} alt="righteditordata not work" />
+              <img className='Editorspick-image-containers' src={each?.url} alt="righteditordata not work" />
             </div>
             <div className='Editorspick-description-container'>
               <p>{each?.description}</p>

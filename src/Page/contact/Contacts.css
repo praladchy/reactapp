@@ -1,0 +1,21 @@
+
+.contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    /* flex: 70%; */
+    gap: 5em;
+    margin-top: 3em;
+    /* width: 80%; */
+    margin-left: 2em;
+    /* justify-content: center; */
+
+}
+
+.textarea-container{
+    width: 50em;
+    height: 20em;
+    border-radius: 1em;
+}
+.contact-main-container{
+    /* display: flex; */
+}

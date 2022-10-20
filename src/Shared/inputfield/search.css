@@ -1,3 +1,8 @@
-.main-container{
+.search-main-container{
     flex-shrink: 3;
+  
+}
+.search-box-container{
+background-color: antiquewhite;
+border-radius: 4px;
 }

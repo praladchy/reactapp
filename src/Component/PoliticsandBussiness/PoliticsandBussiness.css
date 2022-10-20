@@ -6,7 +6,11 @@
 }
 .politics-container{
 justify-content: center;
+width: 45%;
+/* background-color: aqua; */
 }
 .bussiness-container{
     justify-content: center;
+    width: 45%;
+    /* background-color: aquamarine; */
     }

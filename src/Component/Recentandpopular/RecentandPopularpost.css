@@ -7,7 +7,10 @@
 }
 .recent-popular-news-container{
     display: flex;
-    width: 50%;
+    width: 47%;
     flex-wrap: wrap;
     
+}
+.recent-popular-popular-container{
+    width: 50%;
 }

@@ -10,9 +10,14 @@
 .left-side-description-container {
   padding-left: 1em;
 
-  width: auto;
+  overflow: hidden;
+display: -webkit-box;
+-webkit-line-clamp:4;
+-webkit-box-orient: vertical;
 }
 .left-side-container {
-  width: 12em;
+  padding-top: 2em;
+  width: 15em;
   flex-shrink: 2;
+  background-color: rgb(214, 225, 244);
 }

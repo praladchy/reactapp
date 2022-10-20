@@ -7,9 +7,9 @@ const SearchInput = () => {
       {/* { */}
       {/* // Searchdata.map((each,index)=>( */}
         
-      <div className='main-container' >
+      <div className='search-main-container' >
       {/* <input type={"text"} placeholder={each?.placeholder}/> */}
-      <input type={"text"} placeholder={"search.."}/>
+      <input type={"text"} placeholder={"search.."} className='search-box-container'/>
     </div>
 
       {/* // )) */}

@@ -8,14 +8,14 @@ import './PoliticsandBussiness.css'
 const PoliticsandBussiness = () => {
   return (
     <div className='politicsandBussiness-container'>
-      {/* <div className='politics-container'> */}
+      <div className='politics-container'>
         <Politics FromPoliticsdata={Politicsdata.slice(0,4)}/>
 
-      {/* </div> */}
-      {/* <div className='bussiness-container'> */}
+      </div>
+      <div className='bussiness-container'>
 
         <Bussiness />
-      {/* </div> */}
+      </div>
     </div>
   )
 }

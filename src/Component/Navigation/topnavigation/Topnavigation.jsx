@@ -19,7 +19,7 @@ const Topnavigation = () => {
 
             <div className="search-side-container">
               <div className='search-container'>
-                <SearchInput />
+                <SearchInput  />
               </div>
               <div className='button-container'>
                 <ButtonWithIcon icon={<GrSearch color="blue" />} />
