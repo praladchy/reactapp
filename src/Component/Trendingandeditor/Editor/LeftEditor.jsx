@@ -22,13 +22,13 @@ const Editor = () => {
               />
             </figure>
             {/* <div className='title-container'> */}
-            {/* <div className='left-side-description-container'>
+            <div className='left-side-description-container'>
             <h3>{each?.title}</h3>
             <p>{each?.description}</p>
-          </div> */}
+          </div>
             <div className='left-side-description-container'>
               {/* <h3>{Righteditordata[0].title}</h3> */}
-              <p>{Righteditordata[0].description}</p>
+              {/* <p>{Righteditordata[0].description}</p> */}
             </div>
 
             {/* </div> */}

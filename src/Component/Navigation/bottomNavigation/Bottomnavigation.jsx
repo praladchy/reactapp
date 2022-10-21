@@ -7,8 +7,8 @@ const Bottomnavigation = ({ Navdata=[] }) => {
     <div className="main-bottom-container">
       <div className="bottom-container">
         {Navdata.map((each, index) => (
-          <div className="bottom-nav-container" key={index}>
-            <NavLink to={each.url} >{each.lable}</NavLink>
+          <div  key={index}>
+            <NavLink className="bottom-nav-container" to={each.url} >{each.lable}</NavLink>
           </div>
         ))}
         

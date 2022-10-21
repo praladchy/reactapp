@@ -1,4 +1,5 @@
 import React from "react";
+import './Navigation.css'
 
 import Topnavigation from "../../Component/Navigation/topnavigation/Topnavigation";
 import Bottomnavigation from "../../Component/Navigation/bottomNavigation/Bottomnavigation";

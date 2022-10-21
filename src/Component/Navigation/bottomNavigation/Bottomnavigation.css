@@ -5,10 +5,15 @@
     text-decoration: none;
     flex-shrink: 2;
     align-items: stretch;
-    gap: 20%;
+    gap: 30%;
+    /* text-underline-offset: none; */
     /* justify-content: space-between; */
+    background-color: blanchedalmond;
    
 }
 /* .main-bottom-container{ */
     /* text-decoration: none; */
 /* } */
+.bottom-nav-container{
+    text-decoration: none;
+}

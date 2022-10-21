@@ -7,7 +7,7 @@ const Politics = ({FromPoliticsdata}) => {
             <div className='Politics-main-container'>
                 <div className='politics-heading-container'>
 
-                    <h2>Politics</h2>
+                    <h2 className='politics-heading'>Politics</h2>
                 </div>
                 {FromPoliticsdata.map((each, index) => (
                     <div className='politics-image-description-container' key={index}>
