@@ -8,22 +8,25 @@ import { Route, Routes } from "react-router-dom";
 import Navigations from "../Component/Navigation/Navigation";
 import { Navpath } from "../Component/Dummydata/Navpath"
 import Footernav from "../Component/Navigation/Footernavigation/Footernav";
-import {Footerdata} from "../Component/Dummydata/Footerdata"
+import { Footerdata } from "../Component/Dummydata/Footerdata"
+import './Routing.css'
 const Routing = () => {
   return (
-    <>
-      <Navigations />
-      {Navpath.map((each, index) => (
-        <div className="routes-container" key={index}>
-          <Routes>
+    <div className="Router-main Container">
+      <div className="Router-sub-container">
+        <Navigations />
+        {Navpath.map((each, index) => (
+          <div className="routes-container" key={index}>
+            <Routes>
 
-            <Route path={each?.url} element={each?.element} />
+              <Route path={each?.url} element={each?.element} />
 
-          </Routes>
-        </div>
-      ))}
-      <Footernav Footerdata={Footerdata}/>
-    </>
+            </Routes>
+          </div>
+        ))}
+        <Footernav Footerdata={Footerdata} />
+      </div>
+    </div>
   );
 };
 

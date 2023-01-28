@@ -1,0 +1,36 @@
+.Login-Container {
+    border: 1px solid none;
+    text-align: center;
+    /* block-size: 10em; */
+    margin-top: 5px;
+    padding-left: 5%;
+    padding-right: 5%;
+    width: fit-content;
+    /* width: 345px; */
+    /* height: 390px; */
+    border-radius: 1em;
+    /* background-color: beige */
+    box-shadow: rgb(0 0 0 / 16%) 1px 1px 10px;
+    padding-bottom: 1em;
+    padding-top: .6em;
+    background-color: white;
+}
+
+.Login-main-Container {
+    background-size: 30em;
+    /* width: 100vw; */
+    text-align: -webkit-center;
+    height: 31em;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../Login/Test.jpg);
+}
+
+.Login-Cancle-Button-container {
+    text-align: center;
+
+    padding-top: 2em;
+    /* padding-left: 2em; */
+    flex-wrap: wrap;
+
+}

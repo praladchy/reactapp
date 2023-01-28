@@ -3,19 +3,36 @@
     display: flex;
     flex-wrap: wrap;
     /* flex: 70%; */
-    gap: 5em;
-    margin-top: 3em;
-    /* width: 80%; */
-    margin-left: 2em;
+    gap: 2em;
+    /* margin-top: 3em; */
+    width: 30em;
+    /* margin-left: 2em; */
     /* justify-content: center; */
-
+    text-align: center;
+background-color: rgb(204, 182, 153);
+/* text-align: -webkit-center; */
+padding-bottom: 2em;
+border-radius: 8px;
 }
 
 .textarea-container{
     width: 50em;
     height: 20em;
-    border-radius: 1em;
+    border-radius: 8px;
+    /* justify-content: center; */
 }
 .contact-main-container{
     /* display: flex; */
+    /* flex-direction: row; */
+    padding: 2em;
 }
+.contact-filed-contact-Form-container{
+    text-align: center;
+}
+.Submit-Form-Container{
+    width: 67px;
+    box-shadow: none;
+        border-radius: 5px;
+    border: .1px solid rgb(21, 21, 211);
+     background-color:#0d6efd;
+    }

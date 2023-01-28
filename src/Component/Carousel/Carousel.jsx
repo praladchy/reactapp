@@ -16,10 +16,10 @@ const Carousel = () => {
     centermode: false,
   };
   return (
-    <div>
+    <div className="Carousel-Main-container">
       <Slider {...settings}>
         {Carouseldata.map((each, index) => (
-          <div className="Carousel-container" key={index}>
+          <div className="Carousel-container"  key={index}>
             <div className="image-description-container">
               <div>
               <figure>

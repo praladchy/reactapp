@@ -1,22 +1,35 @@
-.image-description-container{
+.image-description-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-   padding: 2em;
+    /* padding: 1em; */
+    /* position: relative; */
 }
-.image-container{
-    width: 30em;
-    height: 25em;
-    justify-content: flex-start;
-    /* flex-shrink: 1; */
+
+.image-container {
+    width: 27em;
+    height: 22em;
+    /* justify-content: flex-start; */
+    /* flex-shrink: 1 */
+    /* ;padding-left: .7em; */
     /* justify-content: center; */
-    
+
 }
-.carousel-description-container{
+
+.carousel-description-container {
     flex-wrap: wrap;
-    width: 37em;
+    width: 20em;
+    /* margin-left: auto; */
     /* justify-content: center; */
 }
-.Carousel-container{
+
+.Carousel-container {
     background-color: cornsilk;
+    /* padding: 4px; */
+}
+
+.Carousel-Main-container {
+    justify-items: center;
+    width:97.2%;
+    /* box-sizing: border-box; */
 }

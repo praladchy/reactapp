@@ -19,6 +19,14 @@ const Navdata = [
         url: "/Bussiness",
         lable: "Bussiness",
     },
+    {
+        url: "/Login",
+        lable: "Login",
+    }, 
+    {
+        url: "/SignUp",
+        lable: "SignUp",
+    },
 ]
 
 export { Navdata };

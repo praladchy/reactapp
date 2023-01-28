@@ -9,7 +9,7 @@ const Navigations = () => {
    
   return (
     <div className="main-container">
-      <div className="top-container">
+      <div className="TopNavigation-container">
         <Topnavigation />
       </div>
       <div className="bottom-container">

@@ -1,9 +1,10 @@
 .contactForm-container{
     
- width:40em;
- height: 3em;   
+ /* width:25%; */
+ justify-content: center;
+ /* height: 3em;    */
  /* flex: auto; */
- border-radius: 6em;
- flex-shrink: 4;
-
+ /* border-radius: 8px; */
+ /* flex-shrink: 4; */
+ /* gap: .7em; */
 }

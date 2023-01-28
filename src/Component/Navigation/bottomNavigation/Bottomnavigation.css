@@ -3,17 +3,19 @@
     display: flex;
     /* grid-row: auto; */
     text-decoration: none;
-    flex-shrink: 2;
+    /* flex-shrink: 2; */
     align-items: stretch;
-    gap: 30%;
+    /* position: relative; */
+    gap: 5%;
     /* text-underline-offset: none; */
-    /* justify-content: space-between; */
-    background-color: blanchedalmond;
+    text-align: space-between;
+   
    
 }
 /* .main-bottom-container{ */
     /* text-decoration: none; */
-/* } */
-.bottom-nav-container{
+    /* } */
+    .bottom-nav-container{
+   
     text-decoration: none;
 }

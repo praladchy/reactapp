@@ -11,14 +11,14 @@ const Politics = ({FromPoliticsdata}) => {
                 </div>
                 {FromPoliticsdata.map((each, index) => (
                     <div className='politics-image-description-container' key={index}>
-                        <figure>
+                        {/* <figure> */}
                             <img
                                 src={each?.image}
                                 className="politics-image-container"
                                 alt="imgload"
 
                             />
-                        </figure>
+                        {/* </figure> */}
 
                         <div className='politics-title-description-container'>
                             <div className='politics-description-heading-container'>

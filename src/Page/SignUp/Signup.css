@@ -1,0 +1,59 @@
+.Signup-Container {
+    border: 1px solid none;
+    text-align: center;
+    /* block-size: 10em; */
+    padding-left: 5%;
+    padding-right: 5%;
+    /* width: 345px; */
+    width: fit-content;
+    /* height: 390px; */
+    border-radius: 1em;
+    /* background-color: beige */
+    background-size: 90em;
+    box-shadow: rgb(0 0 0 / 16%) 1px 1px 10px;
+    padding-bottom: 1em;
+    padding-top: .6em;
+    background-color: white;
+}
+
+.Signup-Sub-Container {
+    text-align: -webkit-center;
+    /* width: 100vw; */
+    height: 34em;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../Test.jpg);
+}
+
+.Signup-Cancle-Button-container {
+
+    text-align: center;
+
+    padding-top: 2em;
+    /* padding-left: 2em; */
+    flex-wrap: wrap;
+
+
+}
+
+.button-Container {
+    width: 100%;
+    font-size: 16px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding: 0.375rem 0.75rem;
+    border: 1px solid rgba(0, 0, 255, 0.877);
+    background-color: blue;
+    margin-bottom: 1em;
+}
+
+
+.Input-Container {
+    width: 100%;
+    font-size: 16px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    border-color: none;
+    padding: 0.375rem 0.75rem;
+    border: 1px solid rgb(173, 166, 166);
+}
