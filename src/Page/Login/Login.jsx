@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
+import { Routes, NavLink, Route } from 'react-router-dom';
 // import { NavLink } from 'react-router-dom'
 import Lable from '../../Shared/Lable/Lable'
+import SignUp from '../SignUp/SignUp';
 import './Login.css'
 const About = () => {
 
@@ -20,6 +22,8 @@ const About = () => {
     });
     console.log(response, 'response')
   };
+ 
+
   return (
 
 
@@ -38,10 +42,20 @@ const About = () => {
             </div>
             <div className='Login-Cancle-Button-container'>
               <div className='Login-button-Container'>
-                <button className='button-Container' type="submit" >Login</button>
+                <NavLink to="/">
+                  <button className='button-Container' type="submit" >Login</button>
+                  </NavLink>
               </div>
+              <><p>or</p></>
               <div className='Cancle-button-Container'>
-                <button className='button-Container' >Cancle</button>
+                {/* <BrowserRouter> */}
+
+                <NavLink to="/SignUp"><button className='button-Container' >SignUp</button></NavLink>
+                {/* <Routes>
+                    <Route path="/SignUp" element={<SignUp />} />
+                  </Routes> */}
+
+                {/* </BrowserRouter> */}
               </div>
             </div>
           </form>

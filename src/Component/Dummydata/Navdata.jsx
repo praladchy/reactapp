@@ -19,14 +19,18 @@ const Navdata = [
         url: "/Bussiness",
         lable: "Bussiness",
     },
-    {
-        url: "/Login",
-        lable: "Login",
-    }, 
-    {
-        url: "/SignUp",
-        lable: "SignUp",
-    },
+    // {
+    //     url: "/Login",
+    //     lable: "Login",
+    // }, 
+    // {
+    //     url: "/SignUp",
+    //     lable: "SignUp",
+    // },
+    // {
+    //     url: "/LoginSignUp",
+    //     lable: "LoginSignUp",
+    // },
 ]
 
 export { Navdata };

@@ -4,6 +4,7 @@ import Contacts from "../../Page/contact/Contacts"
 import Politics from "../../Page/Politics/Politics"
 import Login from "../../Page/Login/Login"
 import SignUp from "../../Page/SignUp/SignUp"
+import LoginSignUp from "../../Page/Login/LoginSignUp"
 const Navpath = [
     {
         url: "/",
@@ -24,9 +25,14 @@ const Navpath = [
     {
         url: "/Login",
         element: <Login/>
-    }, {
+    }, 
+    {
         url: "/SignUp",
         element: <SignUp/>
     },
+    // {
+    //     url: "/LoginSignUp",
+    //     element: <LoginSignUp/>
+    // },
 ];
 export {Navpath};

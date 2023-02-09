@@ -10,7 +10,11 @@ const SignUp = () => {
   const[username,setUsername]=useState("")
   const[password,setPassword]=useState("")
   const[email,setEmail]=useState("")
+  const[login,setlogin]=useState("Create")
   const history=useNavigate()
+const handleEvent=()=>{
+  setlogin("LogOUt")
+}
 
   const handleSignUp=async(e)=>{
     e.preventDefault()
@@ -60,7 +64,7 @@ const SignUp = () => {
           </div>
           <div className='Signup-Cancle-Button-container'>
             <div className='Signup-button-Container' >
-               <button className='button-Container'onClick={handleSignUp}>Create</button>
+               <button className='button-Container'onClick={handleSignUp} onPress={handleEvent}>{login}</button>
             </div>
             <div className='Cancle-button-Container'>
             <button className='button-Container'>Cancle</button>
